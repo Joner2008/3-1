@@ -1,3 +1,6 @@
+input.onLogoEvent(TouchButtonEvent.Pressed, function () {
+    puntua.change(LedSpriteProperty.Y, -1)
+})
 input.onButtonPressed(Button.A, function () {
     puntua.move(-1)
 })
